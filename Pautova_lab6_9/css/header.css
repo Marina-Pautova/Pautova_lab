@@ -1,0 +1,154 @@
+.header {
+    display: flex;
+    padding: 28px;
+    /* width: 100%; */
+}
+
+.header_logo {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 23.96px;
+    line-height: 80.5%;
+    color: white;
+    /* background: linear-gradient(rgba(01,83,94, 0),rgba(01,83,94, 0), #018394); */
+}
+
+.header_logo img {
+    width: 49.03px;
+    height: 49px;
+}
+
+.header_nav {
+    display: flex;
+    flex-grow: 1;
+}
+
+.header_menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 38px;
+    margin-top: 10px;
+    margin-left: 38px;
+}
+
+.header_link {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.header_icon {
+    display: flex;
+    position: absolute;
+    top: 40px;
+    right: 58px;
+}
+
+.header_icon img {
+    width: 35px;
+    height: 35px;
+
+}
+
+  .header_menu-toggle {
+    display: flex;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  .header_menu-toggle-line {
+    width: 24px;
+    height: 3px;
+    background-color: #E2E2E2;
+    transition: all 0.3s ease;
+  }
+
+/* Мобильная версия */
+@media (max-width: 768px) {
+    .header {
+        display: flex;
+        padding: 46px 2px;
+        /* width: 100%; */
+    }
+    
+    .header_logo {
+        display: flex;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 80.5%;
+        color: white;
+    }
+    
+    .header_logo img {
+        width: 42px;
+        height: 42px;
+    }
+    
+    .header_nav {
+        display: none;
+        flex-grow: 1;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        right: 20px;
+        background-color: #010A20;
+        border-radius: 4px;
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .header_nav.active {
+        display: flex;
+    }
+    
+    .header_menu {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        padding: 0;
+        gap: 15px;
+        margin: 0;
+    }
+    
+    .header_link {
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .header_icon {
+        display: flex;
+        margin: auto;
+        position: absolute;
+        top: 40px;
+        right: 58px;
+    }
+    
+    .header_icon img {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .header_menu-toggle {
+        display: flex;
+        position: absolute;
+        top: 50px;
+        right: 20px;
+      }
+      
+      .header_menu-toggle-line {
+        width: 25px;
+        height: 3px;
+        background-color: #E2E2E2;
+        transition: all 0.3s ease;
+      }
+ }
