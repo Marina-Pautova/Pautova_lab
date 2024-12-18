@@ -1,0 +1,46 @@
+.contentBlock{
+    display: flex;
+}
+
+.Desc{
+    margin-left: 50px;
+}
+
+.Desc_usersQues{
+    font-size: 45px;
+}
+
+.Desc_userBlock{
+	margin-top: 50px;
+    display: flex;
+}
+
+.Desc_userBlock_userImg{
+    border-radius: 50%;
+}
+
+.Desc_userBlock_user{
+    margin-top:  10px;
+    margin-left:  20px;  
+}
+
+.Desc_userBlock_Desc_name{
+    font-size: 33px;
+}
+
+.Desc_userBlock_Desc_place{
+    margin-top:  10px;
+    font-size: 25px;
+    opacity: 50%;
+}
+
+.userAns{
+    margin-top: 75px;
+    font-size: 22px;
+    opacity: 50%;
+}
+
+.userAns_stars{
+    display: flex;
+    margin-top: 50px;
+}
