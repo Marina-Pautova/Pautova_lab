@@ -1,0 +1,115 @@
+/* Название с кнопкой */
+.title-block {
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+.title-block_text {
+    color: white;
+    font-size: 120px;
+    font-weight: 900;
+    line-height: 130px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title-block_button {
+    color: white;
+    background-color: #DD2242;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 211px;
+    width: 271.14px;
+}
+
+/* Контейнер с дополнитеьной информацией */
+.container {
+    display: flex;
+    /* transform: translate(0, 0);
+    left: 50%; */
+    bottom: 20px;
+    margin: 10% 10% 0 10%;
+    background-color: rgba(00, 00, 00, 0.6);
+}
+
+.container_elem {
+    margin: 30px 50px;
+}
+
+.container_elem_number {
+    color:#DD2242;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container_elem_title {
+    color: #fff;
+    font-size: 26.41px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.container_elem_text {
+    color: #939393;
+    font-size: 18px;
+}
+
+
+/* Мобильная версия */
+@media (max-width: 768px) {
+    .title-block {
+        margin-top: 5%;
+        margin-left: 15%;
+    }
+    
+    .title-block_text {
+        color: white;
+        font-size: 58px;
+        font-weight: 900;
+        line-height: 63px;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .title-block_button {
+        color: white;
+        background-color: #DD2242;
+        padding: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 211px;
+        width: 315px;
+        margin: 20px 0;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        bottom: 20px;
+        margin: 10% 10% 0 10%;
+        background-color: rgba(00, 00, 00, 0.6);
+    }
+    
+    .container_elem {
+        margin: 30px 50px;
+    }
+    
+    .container_elem_number {
+        color:#DD2242;
+        font-size: 16px;
+        font-weight: 900;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .container_elem_title {
+        color: #fff;
+        font-size: 26.41px;
+        font-weight: bold;
+        margin-top: 15px;
+    }
+    
+    .container_elem_text {
+        color: #939393;
+        font-size: 16px;
+    }
+}
